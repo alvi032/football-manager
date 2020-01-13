@@ -1,0 +1,116 @@
+:root{
+    --clr1: #333333;
+    --clr2: #c3512f;
+    --clr3: #fcfcfc;
+    --clr4: #222222;
+    --clr5: #808080;
+}
+#tutorial-home-screen{
+    display: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+body *{
+    box-sizing: border-box;
+    margin: 0;
+    /*padding: 0;*/
+}
+*:focus{
+    outline: none;
+}
+#game{
+    width: 1000px;
+    margin: auto;
+    border: 1px solid var(--clr2);
+    font-family: 'Muli', sans-serif;
+}
+#game-nav-1{
+    display: flex;
+    list-style: none;
+    padding: 40px 20px;
+}
+#game-nav-1 a {
+    opacity: 0.5;
+    transition: 200ms;
+}
+.full-opacity{
+    opacity: 1;
+}
+.game-nav-2{
+    display: flex;
+    list-style: none;
+    background-color: var(--clr1);
+    padding: 0.5em 2em;
+}
+.game-nav-2 li{
+    margin-right: 40px;
+}
+.game-nav-2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+#tutorial-home-screen{
+    padding: 40px 20px;
+}
+#tutorial-steps{
+    padding-left: 0;
+    list-style: none;
+    display:  grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 15px;
+    margin-bottom: 80px;
+}
+#tutorial-steps li{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--clr2);
+    text-align: center;
+    border-radius: 30px;
+    place-content: center;
+    position: relative;
+}
+#tutorial-steps li p{
+    font-size: 1.25rem;
+    margin-bottom: 0;
+    color: var(--clr5)
+}
+#tutorial-start-button {
+    /*margin-top: 1em;*/
+    background: var(--clr2);
+    border-radius: 0 0 25px 25px;
+    border: transparent ;
+    padding: 0.5em;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 101%;
+}
+#tutorial-start-button:hover{
+    background-color: #e15330;
+    cursor: pointer;
+}
+.selected-step p{
+    padding-bottom: 52px;
+}
+.manager-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.manager-div img{
+    padding: 2em;
+}
+.manager-div p{
+    width: 600px;
+    padding: 2em;
+    border-radius: 30px;
+    background-color: var(--clr2);
+    color: white;
+}
