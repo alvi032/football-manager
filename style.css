@@ -5,7 +5,7 @@
     --clr4: #222222;
     --clr5: #808080;
 }
-#tutorial-home-screen,#tactics, #match-simulation, #stadium, #youth-development{
+#tutorial-home-screen,#tactics, #match-simulation, #stadium, #youth-development, #training{
     display: none;
 }
 body{
@@ -350,5 +350,25 @@ body *{
     font-size: 1.125rem;
     text-align: center;
     font-weight: bold;
-margin-top: 1em;
+    margin-top: 1em;
+}
+#player-profile-container{
+    display: grid;
+    grid-template-columns: 200px 550px 250px;
+}
+#player-profile-menu>ul{
+    border-top: 54px solid var(--clr1);
+    border-radius: 30px 30px 0 0;
+    padding-left: 0;
+    list-style: none;
+}
+#player-profile-menu>ul>li{
+    padding: 0.5em 2em;
+    background-color: var(--clr2);
+    color: white;
+}
+#player-profile-menu>ul>li:hover{
+    background-color: white;
+    color: var(--clr2);
+    cursor: pointer;
 }

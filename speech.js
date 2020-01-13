@@ -58,4 +58,4 @@ var speech15 = 'Excellent! Sterling Stockton seems to be improving really well! 
     '\n' +
     'The coach will have a new training report for you each Tuesday.\n' +
     '\n' +
-    'Press Continue when you\'re ready.'
+    'Press Continue when you\'re ready.';
