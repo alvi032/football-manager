@@ -1,12 +1,12 @@
-var speech1 = 'First let us have a look at our players and tactics\n' +
-    '\n' +
-    'Click on the TACTICS link in the top menu.';
-
-var speech2 = 'Hello and welcome to the proud club Bannu RSC.\n' +
+var speech1 = 'Hello and welcome to the proud club Bannu RSC.\n' +
     '\n' +
     'I\'m Miguel Tutoriález, your guide into the world of Trophy Manager.\n' +
     '\n' +
     'I have created a schedule for today to get you started as a new manager. Press the START button to begin.';
+
+var speech2 = 'First let us have a look at our players and tactics\n' +
+    '\n' +
+    'Click on the TACTICS link in the top menu.';
 
 var speech3 = 'Your team is set for your first match.\n' +
     '\n' +

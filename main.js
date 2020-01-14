@@ -1,4 +1,5 @@
 var startButton  = '<button id="tutorial-start-button">Start</button>'
+/*
 var homeMenu = '<ul class="game-nav-2">' +
     '<li><a href="#">Home</a></li>' +
     '<li><a href="#">Club</a></li>' +
@@ -7,10 +8,10 @@ var homeMenu = '<ul class="game-nav-2">' +
     '<li><a href="#">Account</a></li>' +
     '</ul>';
 var tacticsMenu = '<ul class="game-nav-2">' +
-    '<li><a href="#">Tactics</a></li>' +
-    '<li><a href="#">Players</a></li>' +
-    '<li><a href="#">Youth Development</a></li>' +
-    '<li><a href="#">Training</a></li>' +
+    '<li><button id="tactics-menu">Tactics</button></li>' +
+    '<li><a href="#" id="players-menu-main">Players</a></li>' +
+    '<li><a href="#" id="youth-menu-main">Youth Development</a></li>' +
+    '<li><a href="#" id="training-menu-main">Training</a></li>' +
     '</ul>';
-$('#game-nav').append(homeMenu)
-$('#step-1').append(startButton).addClass('selected-step')
+*/
+

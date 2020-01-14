@@ -10,6 +10,9 @@
 #bidding, #league, #club{
     display: none;
 }
+#homeMenu, #tacticsMenu{
+    display: none;
+}
 body{
     margin: 0;
     padding: 0;
@@ -22,7 +25,9 @@ body *{
 *:focus{
     outline: none;
 }
-
+#continue{
+    margin-top: 1em;
+}
 #game{
     width: 1000px;
     margin: auto;
@@ -110,7 +115,8 @@ body *{
 .manager-div img{
     padding: 2em;
 }
-.manager-div p{
+
+.manager-div>div{
     width: 600px;
     padding: 2em;
     border-radius: 30px;
