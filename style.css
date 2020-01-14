@@ -5,12 +5,12 @@
     --clr4: #222222;
     --clr5: #c0c0c0;
 }
-#tutorial-home-screen,#tactics, #match-simulation, #stadium,
+#tutorial-home-screen, #tutorial-home-screen2, #tutorial-home-screen3, #tutorial-home-screen4, #tutorial-home-screen5, #tutorial-home-screen6, #tactics, #match-simulation, #stadium,
 #youth-development, #training, #player-profile, #player-profile2, #transfer,
 #bidding, #league, #club{
     display: none;
 }
-#homeMenu, #tacticsMenu{
+#homeMenu, #tacticsMenu, #transferMenu, #leagueMenu{
     display: none;
 }
 body{
@@ -24,6 +24,9 @@ body *{
 }
 *:focus{
     outline: none;
+}
+.manager-speech{
+    margin: 1em 0;
 }
 #continue{
     margin-top: 1em;
@@ -60,7 +63,7 @@ body *{
     color: white;
     font-weight: 700;
 }
-#tutorial-home-screen{
+#tutorial-home-screen, #tutorial-home-screen2, #tutorial-home-screen3, #tutorial-home-screen4, #tutorial-home-screen5, #tutorial-home-screen6{
     padding: 40px 20px;
 }
 #tutorial-steps{
@@ -86,7 +89,7 @@ body *{
     margin-bottom: 0;
     color: var(--clr5)
 }
-#tutorial-start-button {
+#tutorial-start-button, #tutorial-start-button2, #tutorial-start-button3, #tutorial-start-button4, #tutorial-start-button5 {
     /*margin-top: 1em;*/
     background: var(--clr2);
     border-radius: 0 0 25px 25px;
@@ -100,7 +103,7 @@ body *{
     left: 0;
     width: 101%;
 }
-#tutorial-start-button:hover{
+#tutorial-start-button:hover, #tutorial-start-button2:hover, #tutorial-start-button3:hover, #tutorial-start-button4:hover, #tutorial-start-button5:hover{
     background-color: #e15330;
     cursor: pointer;
 }
@@ -111,6 +114,7 @@ body *{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 1em 0;
 }
 .manager-div img{
     padding: 2em;

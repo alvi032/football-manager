@@ -1,4 +1,4 @@
-var startButton  = '<button id="tutorial-start-button">Start</button>'
+// var startButton  = '<button id="tutorial-start-button">Start</button>'
 /*
 var homeMenu = '<ul class="game-nav-2">' +
     '<li><a href="#">Home</a></li>' +

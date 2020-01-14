@@ -27,6 +27,9 @@ var speech6 = 'Congratulations on completing the first step of the tutorial. You
 var speech7 = 'It seems your stadium needs a bit of work to make the fans happy.\n' +
     '\n' +
     'Press the START button.';
+var speech75 = 'Let us walk over to the stadium grounds and have a look at the facilities.\n' +
+    '\n' +
+    'Select Stadium from top menu.';
 
 var speech8 = 'Upgrade your Youth Academy on the list below the picture of your stadium grounds.';
 
@@ -38,13 +41,15 @@ var speech10 = 'This is the Youth Development page. Every Saturday you can get a
     '\n' +
     'Let\'s hire that little diamond in the rough';
 
+var speech105 ='Great! You have now hired your first youth talent.';
+
 var speech11 = 'Now let us have a look at the training.\n' +
     '\n' +
     'Press START to begin.';
 
 var speech12 = 'Go to your TRAINING page to place our newly signed talent, Sterling Stockton, on a training team.';
 
-var speech13 = 'Your new talent (Sterling Stockton) is placed on a training team. You can drag him and your other players between your training teams so they can improve the appropriate skills. Goalkeepers will always train goalkeeping skills.\n' +
+var speech13 = 'Your new talent (Sterling Stockton) is placed on a training team. Goalkeepers will always train goalkeeping skills.\n' +
     '\n' +
     'Try moving a few players to different teams.\n' +
     '\n' +
@@ -53,6 +58,7 @@ var speech13 = 'Your new talent (Sterling Stockton) is placed on a training team
 var speech14 = 'Your team coach has arranged an extra training session for your new player.\n' +
     '\n' +
     'Go to the Player Profile of Sterling Stockton to see how he did.';
+
 
 var speech15 = 'Excellent! Sterling Stockton seems to be improving really well! In general younger players improve more than the older ones - but I bet you already knew that?\n' +
     '\n' +
@@ -101,6 +107,15 @@ var speech26 = 'Now to what its all about - the season in  ASL 3 Group 17.';
 
 var speech27 = 'Let us go to the League page.';
 
-var speech29 = 'On wednesdays, fridays and sundays at 02:00 we play league matches. A season lasts 12 weeks (34 rounds - home and away against each team), and then the top two teams are promoted.\n' +
+var speech28 = 'On wednesdays, fridays and sundays at 02:00 we play league matches. A season lasts 12 weeks (34 rounds - home and away against each team), and then the top two teams are promoted.\n' +
     '\n' +
-    'Press Continue.'
+    'Press Continue.';
+
+var speech29 = 'Check out top division in the League.';
+
+var speech30 = 'Beautiful - these guys are the top guns'
+
+var speech31 = '\n' +
+    'This is the clubhouse. Each club have their own unique page. You can see club logo, trophy cabinet, favourite players and club info. In the left hand menu you can find links to their squad, stadium, fixtures and much more.'
+
+var speech32 = 'That\'s all the tasks I had for you today!'
