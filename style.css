@@ -3,9 +3,11 @@
     --clr2: #c3512f;
     --clr3: #fcfcfc;
     --clr4: #222222;
-    --clr5: #808080;
+    --clr5: #c0c0c0;
 }
-#tutorial-home-screen,#tactics, #match-simulation, #stadium, #youth-development, #training{
+#tutorial-home-screen,#tactics, #match-simulation, #stadium,
+#youth-development, #training, #player-profile, #player-profile2, #transfer,
+#bidding, #league, #club{
     display: none;
 }
 body{
@@ -20,6 +22,7 @@ body *{
 *:focus{
     outline: none;
 }
+
 #game{
     width: 1000px;
     margin: auto;
@@ -192,6 +195,14 @@ body *{
     text-align: center;
     padding: 0.5em 0;
 }
+.sub_heading{
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: var(--clr1);
+    color: white;
+    text-align: center;
+    padding: 0.5em 0;
+}
 #game-breakdown>div{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -352,9 +363,22 @@ body *{
     font-weight: bold;
     margin-top: 1em;
 }
+
 #player-profile-container{
     display: grid;
-    grid-template-columns: 200px 550px 250px;
+    grid-template-columns: 190px 550px 240px;
+    border-radius: 30px 30px 0 0;
+    grid-column-gap: 10px;
+}
+#player-profile-container2{
+    display: grid;
+    grid-template-columns: 190px 550px 240px;
+    border-radius: 30px 30px 0 0;
+    grid-column-gap: 10px;
+}
+.player-profile-container{
+    background-color: rgba(255, 99, 54, 0.84);
+    border-radius: 30px 30px 0 0;
 }
 #player-profile-menu>ul{
     border-top: 54px solid var(--clr1);
@@ -371,4 +395,251 @@ body *{
     background-color: white;
     color: var(--clr2);
     cursor: pointer;
+}
+#player-profile-menu2>ul{
+    border-top: 54px solid var(--clr1);
+    border-radius: 30px 30px 0 0;
+    padding-left: 0;
+    list-style: none;
+}
+#player-profile-menu2>ul>li{
+    padding: 0.5em 2em;
+    background-color: var(--clr2);
+    color: white;
+}
+#player-profile-menu2>ul>li:hover{
+    background-color: white;
+    color: var(--clr2);
+    cursor: pointer;
+}
+.player-profile-name{
+    text-align: center;
+    padding: 1em 0;
+    background-color: var(--clr2);
+    color: white;
+    margin: 1em 0;
+    font-weight: bold;
+}
+
+.player-profile-stats{
+    display: grid;
+    grid-template-columns: 200px auto ;
+    place-items: center;
+    padding-bottom: 1em;
+}
+.player-profile-stats img{
+    padding: 1em;
+    background-color: var(--clr2);
+}
+.player-profile-stats ul{
+    list-style:none ;
+    padding-left: 0;
+}
+.player-profile-stats li{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.player-profile-stats li div{
+    padding: 0.1em  0.5em;
+    margin: 0.2em 0;
+    color: white;
+    background-color: var(--clr2);
+}
+.player-profile-stats li>div:first-child{
+    font-weight: bold;
+}
+.player-profile-skills .tut_heading{
+    font-size: 1rem;
+}
+.player-profile-skills>div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.player-profile-skills ul{
+    padding: 0.5em 1em;
+    list-style: none;
+}
+.player-profile-skills li{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+    background-color: var(--clr2);
+    padding: 0.2em 0.3em;
+    margin: 0.5em 0;
+}
+.player-profile-skills li div:nth-child(1) {
+    font-weight: bold;
+}
+.player-profile-skills li div:nth-child(2){
+    display: flex;
+    justify-content: flex-end;
+}
+.player-profile-sidemenu{
+    height: max-content;
+}
+.player-profile-sidemenu>p:nth-child(2){
+    font-size: 1rem;
+}
+
+.player-profile-sidemenu button{
+    display: block;
+    margin: 0.5em 0;
+}
+.player-profile-sidemenu div{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.transfer ul{
+
+    list-style: none;
+    background-color: rgba(255, 127, 80, 0.87);
+    padding-bottom: 1em;
+    padding-left: 0;
+}
+.transfer li{
+    display: grid;
+    grid-template-columns: 200px 115px  115px 115px 115px 115px 120px 103px;
+    padding: 0.3em 0;
+    place-items: center;
+    background-color: var(--clr2);
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+.transfer ul>li:first-child{
+    background-color: var(--clr4);
+}
+.transfer li div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.transfer input{
+    width: 70%;
+    height: 100%;
+}
+.left-side-menu>ul{
+    border-top: 54px solid var(--clr1);
+    border-radius: 30px 30px 0 0;
+    padding-left: 0;
+    list-style: none;
+}
+.left-side-menu>ul>li{
+    padding: 0.5em 2em;
+    background-color: var(--clr2);
+    color: white;
+}
+.left-side-menu>ul>li:hover{
+    background-color: white;
+    color: var(--clr2);
+    cursor: pointer;
+}
+.bidding-container{
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-column-gap: 10px;
+}
+.current-bids>div ul{
+    list-style: none;
+    padding: 0;
+}
+.current-bids>div li{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 0.3em 0;
+    place-items: center;
+    background-color: var(--clr2);
+    color: white;
+    margin: 0.5em 0;
+
+}
+.current-bids li:first-child{
+    font-weight: bold;
+}
+.league-container{
+    display: grid;
+    grid-template-columns: 150px auto 300px;
+    grid-column-gap: 10px;
+}
+.right-sidemenu ul{
+    list-style: none;
+    padding-left: 0;
+    background-color: rgba(195, 81, 47, 0.78);
+}
+.right-sidemenu li{
+    text-align: center;
+    padding: 0.3em 0;
+    background-color: var(--clr2);
+    color: white;
+    margin-bottom: 0.5em;
+}
+.league-table{
+    background-color: rgba(255, 127, 80, 0.84);
+    height: max-content;
+    padding-bottom: 1em;
+    border-radius: 30px 30px 0 0;
+}
+.league-table ul{
+    padding-left: 0;
+    list-style: none;
+}
+.league-table li{
+    display: grid;
+    grid-template-columns: 50px 150px repeat(6, 1fr);
+    place-items: center;
+    padding: 0.3em 0;
+    margin-bottom: 0.5em;
+    background-color: #c3512f;
+    color: white;
+}
+.club-container{
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    grid-column-gap: 10px;
+
+}
+.club-container .left-side-menu{
+    text-align: center;
+}
+.club-body{
+    background-color: rgba(255, 127, 80, 0.87);
+    color: white;
+    display: grid;
+    border-radius: 30px 30px 0 0;
+}
+.club-name{
+    background-color: #c3512f;
+    font-size: 1.125rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5em 0;
+    margin-top: 1em;
+}
+.club-body img{
+    place-self: center;
+}
+.club-stats{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+.club-stats li{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0.3em;
+    background-color: #c3512f;
+    margin-bottom: 0.5em;
+    place-items: center;
+}
+.club-info{
+    list-style: none;
+}
+.club-info li{
+    display: flex;
+    padding: 0.3em 0;
+
+}
+.club-info div{
+    font-weight: bold;
 }

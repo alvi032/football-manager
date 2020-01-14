@@ -59,3 +59,48 @@ var speech15 = 'Excellent! Sterling Stockton seems to be improving really well! 
     'The coach will have a new training report for you each Tuesday.\n' +
     '\n' +
     'Press Continue when you\'re ready.';
+
+var speech16 = 'I always loved the life on the training fields the most, makes me remember when I was a player myself.';
+
+var speech17 = 'We seem to have accumulated quite some money now. The timing seems perfect for my next task.\n' +
+    '\n' +
+    'Press START.';
+var speech18 = 'We have had a lot of troubles with Elias Burkett. He seems to be more interested in drinking, gambling and running after ladies than actually playing football. We should put him up for sale.\n' +
+    '\n' +
+    'Go to the profile of Elias Burkett to transferlist him.'
+
+var speech19 = 'Click on "Transfer List Player to sell the Player';
+
+var speech20 = 'Now you have a transferlisted player. The transfer expires in 2 days and works like an auction, and if someone bid on him, he will be sold to the highest bidder. If nobody bids on him he will stay at the club, we should consider firing him.\n' +
+    '\n' +
+    'Press Continue.';
+
+var speech21 = 'Great! Now it\'s time to get some reinforcements for your squad.\n' +
+    '\n' +
+    'Go to the TRANSFER page and see if you can find someone suitable for your club.'
+
+var speech22 = 'This is the Transfer List. This is where you go to bid on players, when you wish to reinforce your squad. I can see that you are in need of a good Midfielder Right, so I\'ve filtered the list (with the buttons on the left) for you, to make it a little easier to choose.\n' +
+    '\n' +
+    'When you\'ve found someone you like, press the  button next to the player to make your bid.';
+
+var speech23 = 'Good - you now have a bid on a player. If you have the highest bid when the auction ends, the player will automatically join your club.\n' +
+    '\n' +
+    'Press Continue when you\'re ready.';
+
+var speech24 = 'On the BIDS page you can view your current bids and players for sale.\n' +
+    '\n' +
+    'Go there now.';
+
+var speech25 ='This is the bids page. Here you can see whatever players you have the highest bid on and the players you have for sale.\n' +
+    '\n' +
+    'If you lose track of a player you can expand the \'recent bids\' part, and see what happened with the auction.\n' +
+    '\n' +
+    'Press Continue to finish this step of the tutorial.';
+
+var speech26 = 'Now to what its all about - the season in  ASL 3 Group 17.';
+
+var speech27 = 'Let us go to the League page.';
+
+var speech29 = 'On wednesdays, fridays and sundays at 02:00 we play league matches. A season lasts 12 weeks (34 rounds - home and away against each team), and then the top two teams are promoted.\n' +
+    '\n' +
+    'Press Continue.'
